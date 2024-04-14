@@ -6,7 +6,23 @@
   ],
   "settings": {
     "java.configuration.updateBuildConfiguration": "automatic",
-    "kotlin.compiler.jvm.target": "21"
+    "kotlin.compiler.jvm.target": "21",
+    "java.compile.nullAnalysis.mode": "disabled"
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+        {
+          "label": "build",
+          "type": "shell",
+          "command": "./gradlew build -x test",
+          "problemMatcher": [],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          }
+      },
+    ]
   },
   "launch": {
     "version": "0.2.0",
@@ -16,7 +32,8 @@
         "request": "launch",
         "name": "Launch",
         "projectRoot": "${workspaceFolder}",
-        "mainClass": "com/example/demo/DemoApplicationKt"
+        "mainClass": "com/example/demo/DemoApplicationKt",
+        "preLaunchTask": "build"
       }
     ],
     "compounds": []
