@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "kotlin.compiler.jvm.target": "21"
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "kotlin",
+        "request": "launch",
+        "name": "Launch",
+        "projectRoot": "${workspaceFolder}",
+        "mainClass": "com/example/demo/DemoApplicationKt"
+      }
+    ],
+    "compounds": []
+  },
+  "extensions": {
+    "recommendations": [
+      "vmware.vscode-boot-dev-pack",
+      "vscjava.vscode-gradle",
+      "vscjava.vscode-java-pack",
+      "fwcd.kotlin"
+    ]
+  }
+}
