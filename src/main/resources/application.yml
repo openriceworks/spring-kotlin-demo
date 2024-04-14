@@ -1,0 +1,13 @@
+spring:
+  application.name: demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/app
+    username: root
+    password: root
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.sql
+
+logging:
+  level:
+    root: INFO
+    "[com.example.demo.mapper]": DEBUG
