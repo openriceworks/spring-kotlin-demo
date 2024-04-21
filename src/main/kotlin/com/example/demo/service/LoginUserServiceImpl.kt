@@ -6,13 +6,6 @@ import com.example.demo.mapper.UserMapper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
-interface LoginUserService {
-
-  fun findUserInfoList(): List<LoginUserInfo>
-
-  fun findUser(userAccount: String): LoginUser?
-}
-
 @Service
 class LoginUserServiceImpl : LoginUserService {
 
