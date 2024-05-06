@@ -6,6 +6,9 @@ spring:
     password: root
   liquibase:
     change-log: classpath:/db/changelog/db.changelog-master.sql
+  devtools:
+    restart:
+      enabled: true
 
 logging:
   level:
