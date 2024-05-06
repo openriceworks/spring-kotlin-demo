@@ -1,4 +1,4 @@
-package com.example.demo
+package com.example.demo.dto
 
 data class LoginUserInfo(val userAccount: String, val userName: String)
 

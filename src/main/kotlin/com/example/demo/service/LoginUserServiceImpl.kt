@@ -1,7 +1,7 @@
 package com.example.demo.service
 
-import com.example.demo.LoginUser
-import com.example.demo.LoginUserInfo
+import com.example.demo.dto.LoginUser
+import com.example.demo.dto.LoginUserInfo
 import com.example.demo.mapper.UserMapper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service

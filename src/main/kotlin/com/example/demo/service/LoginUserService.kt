@@ -1,7 +1,7 @@
 package com.example.demo.service
 
-import com.example.demo.LoginUser
-import com.example.demo.LoginUserInfo
+import com.example.demo.dto.LoginUser
+import com.example.demo.dto.LoginUserInfo
 
 interface LoginUserService {
 

@@ -1,7 +1,7 @@
 package com.example.demo.mapper
 
-import com.example.demo.LoginUser
-import com.example.demo.LoginUserInfo
+import com.example.demo.dto.LoginUser
+import com.example.demo.dto.LoginUserInfo
 import org.apache.ibatis.annotations.Mapper
 import org.apache.ibatis.annotations.Param
 import org.apache.ibatis.annotations.Select
